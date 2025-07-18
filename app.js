@@ -25,8 +25,8 @@ const flash = require('connect-flash');
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
 
-// const dbUrl = process.env.DB_URL;
-const dbUrl = 'mongodb://localhost:27017/yelp-camp';
+const dbUrl = process.env.DB_URL;
+// const dbUrl = 'mongodb://localhost:27017/yelp-camp';
 // 'mongodb://localhost:27017/yelp-camp'
 mongoose.connect(dbUrl, {
     useNewUrlParser: true,
