@@ -26,8 +26,8 @@ const session = require('express-session');
 const MongoStore = require('connect-mongo');
 
 const dbUrl = process.env.DB_URL;
-console.log(dbUrl);
-console.log(process.env);
+// console.log(dbUrl);
+// console.log(process.env);
 // const dbUrl = 'mongodb://localhost:27017/yelp-camp';
 // 'mongodb://localhost:27017/yelp-camp'
 mongoose.connect(dbUrl, {
