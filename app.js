@@ -25,7 +25,7 @@ const flash = require('connect-flash');
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
 
-const dbUrl = process.env.DB_URL;
+const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/yelp-camp';
 // console.log(dbUrl);
 // console.log(process.env);
 // const dbUrl = 'mongodb://localhost:27017/yelp-camp';
