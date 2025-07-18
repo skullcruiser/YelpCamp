@@ -53,5 +53,4 @@ touch .env
 # SECRET=your_session_secret
 
 # Run the app
-npm install
 node app.js
